@@ -26,7 +26,7 @@ class App extends Component {
     super(props);
     this.state = {
       counter: 0,
-      msg: "count start!",
+      msg: "count start",
       flg: "true",
     };
     this.doAction = this.doAction.bind(this);
