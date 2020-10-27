@@ -20,7 +20,7 @@ function counter(state = state_value, action) {
       };
     case "DECREMENT":
       return {
-        counter: statecouner - 1,
+        counter: state.counter - 1,
         message: "DECREMENT",
       };
     default:
