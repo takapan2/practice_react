@@ -41,6 +41,8 @@ class App extends Component {
               type="text"
               style={this.inputStyle}
               onChange={this.doChange}
+              required
+              pattern="[A-Za-z _,.]+"
             />
           </label>
           <input type="submit" style={this.inputStyle} value="Click" />
