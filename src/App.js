@@ -6,6 +6,7 @@ import AddForm from "./memo/AddForm";
 import FindForm from "./memo/FindForm";
 import DelForm from "./memo/DelForm";
 import * as React from "react";
+import PersistForm from "./memo/PersistForm";
 
 class App extends Component {
   td = {
@@ -28,6 +29,9 @@ class App extends Component {
               </td>
               <td style={this.td}>
                 <DelForm />
+              </td>
+              <td style={this.td}>
+                <PersistForm />
               </td>
             </tr>
           </tbody>
