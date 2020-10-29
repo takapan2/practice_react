@@ -32,6 +32,7 @@ class App extends Component {
             </tr>
           </tbody>
         </table>
+        <Memo />
       </div>
     );
   }

@@ -44,7 +44,7 @@ class AddForm extends Component {
                   margin:"5px 10px",
               } */}
         <p style={this.message}>{this.props.message}</p>
-        <form onSubmit={doAction}>
+        <form onSubmit={this.doAction}>
           <input
             type="text"
             size="40"
