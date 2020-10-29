@@ -42,7 +42,9 @@ const persistConfig = {
   key: "root",
   storage,
 };
-let store = createStore(persistReducer);
+
+const tersistReducer = persistReducer(persistConfig, counter);
+let store = createStore(tersistReducer);
 let pstore = persistStore(store);
 
 ReactDOM.render(
